@@ -1,5 +1,4 @@
-To start download bower components
-**bower install**
+#Modular Javascript
 
 ###The purpose of this exercise is to take a jQuery **'spaghetti' code** and turn this **into modular JS**.
 
@@ -16,4 +15,7 @@ To start download bower components
 
 ####Preview
 
-![modular-js screenshot](https://raw.githubusercontent.com/maciejk77/modular-js/....screenshot.png)
+![modular-js screenshot](https://raw.githubusercontent.com/maciejk77/modular-js/master/screenshot.png)
+
+
+Download bower components jquery and moustache, type in ```bower install``` into terminal
