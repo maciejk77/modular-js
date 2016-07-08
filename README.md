@@ -1,8 +1,8 @@
 #Modular Javascript
 
-####The purpose of this exercise is to take a jQuery **'spaghetti' code** and turn this **into modular JS**.
+####The purpose of this exercise is to take a jQuery **'spaghetti' code** and turn **into modular JS**.
 
-Download bower components jquery and moustache, type in ```bower install``` into terminal to render correctly
+Download bower components jquery and moustache, type in ```bower install``` into terminal to render correctly.
 
 #####The goal is to end up with (key learnings):
 
