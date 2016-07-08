@@ -1,9 +1,9 @@
 To start download bower components
 bower install
 
-** The purpose of this exercise is to take a jQuery 'spaghetti' code and turn this inot modular JS.
+The purpose of this exercise is to take a jQuery 'spaghetti' code and turn this inot modular JS.
 
-* The goal is to end up with:
+The goal is to end up with:
 
 - self contained module
 - no global variables
