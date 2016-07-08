@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Modular JS exercise</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<div class="hero-unit">
-  <h1>JS</h1></br>Tutorials</h1>
-</div>
+<div class="container">
+  <div class="hero-unit jumbotron">
+    <h1>List of People</h1>
+  </div>
 
-<div id="peopleModule">
-  <h1>People</h1>
-  <input placeholder="name" type="text">
-  <button id="addPerson">Add Person</button>
-  <ul id="people">
-    <script id="people-template" type="text/template">
-      {{#people}}
-        <li>
-          <span>{{.}}</span>
-          <i class="del">X</i>
-        </li>
-      {{/people}}
-    </script>
-  </ul>
+  <div id="peopleModule">
+    <div class="input-button">  
+      <input placeholder=" Type in a name " type="text" class="input-box">
+      <button id="addPerson" class="add-button btn-info">Add Person</button>
+    </div>
+    <ul id="people">
+      <script id="people-template" type="text/template">
+        {{#people}}
+          <li>
+            <span>{{.}}</span>
+            <i class="del glyphicon glyphicon-remove"></i>
+          </li>
+        {{/people}}
+      </script>
+    </ul>
+  </div>
 </div>
 
 <script src="bower_components/jquery/dist/jquery.js"></script>

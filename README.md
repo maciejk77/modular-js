@@ -1,9 +1,9 @@
 To start download bower components
-bower install
+**bower install**
 
-The purpose of this exercise is to take a jQuery 'spaghetti' code and turn this into modular JS.
+###The purpose of this exercise is to take a jQuery **'spaghetti' code** and turn this **into modular JS**.
 
-The goal is to end up with:
+####The goal is to end up with (key learnings):
 
 - self contained module
 - no global variables
@@ -14,3 +14,6 @@ The goal is to end up with:
 - no memory leaks
 - limited number of $ selections
 
+####Preview
+
+![modular-js screenshot](https://raw.githubusercontent.com/maciejk77/modular-js/....screenshot.png)

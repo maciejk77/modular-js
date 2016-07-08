@@ -25,8 +25,8 @@
       };
       this.$ul.html(Mustache.render(this.$template, data));
     },
-    addPerson: function(value) {
-      this.people.push(value || this.$input.val());
+    addPerson: function() {
+      this.people.push(this.$input.val());
       this.render();
       this.$input.val('');
     },
