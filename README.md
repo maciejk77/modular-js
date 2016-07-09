@@ -6,6 +6,7 @@
 
 - design pattern (master)
 - revealing pattern
+- pubsub pattern
 
 Download bower components jquery and moustache, type in ```bower install``` into terminal to render correctly.
 
