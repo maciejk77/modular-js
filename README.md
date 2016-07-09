@@ -2,6 +2,11 @@
 
 ####The purpose of this exercise is to take a jQuery **'spaghetti' code** and turn **into modular JS**.
 
+#####Switch branches to see the following JS patters:
+
+- design pattern (master)
+- revealing pattern
+
 Download bower components jquery and moustache, type in ```bower install``` into terminal to render correctly.
 
 #####The goal is to end up with (key learnings):
