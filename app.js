@@ -17,6 +17,7 @@ var people = (function() {
 
   function _render() {
     $ul.html(Mustache.render(template, {people: people}));
+    pubsub.publish("peopleChanged", people);
   };
 
   function addPerson(value) {
