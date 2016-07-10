@@ -2,8 +2,11 @@
 
 var human = {
   species: "human",
-  create: function(name) {
+  create: function(values) {
     var instance = Object.create(this);
+    Object.keys(values).forEach(function(key) {
+      instance[key] = values[key];
+    });
     instance.name = name;
     return instance;
   },
